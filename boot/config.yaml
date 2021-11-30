@@ -1,0 +1,8 @@
+services:
+  - name: aarna
+    url: https://gitlab.com/jacobphilip/opa-test-bundles
+discovery:
+  resource: /raw/main/bundle/discovery.tar.gz
+  decision: discovery/config
+labels:
+  region: "IN"
