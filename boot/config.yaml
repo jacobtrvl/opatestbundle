@@ -1,8 +1,8 @@
 services:
-  - name: aarna
-    url: https://gitlab.com/jacobphilip/opa-test-bundles
+  - name: acmecorp
+    url: http://127.0.0.1:8080/
 discovery:
-  resource: /raw/main/bundle/discovery.tar.gz
+  resource: bundle/discovery.tar.gz
   decision: discovery/config
 labels:
   region: "IN"
